@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.top-navigation {
+  margin: 0 auto;
+  padding: 0 22px;
+  height: 75px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: darkgrey;
+}
+
+/* how to enlarge the grey background-color? put in a div?*/
+
+/*.top-navigation ul {
+  cursor: default;
+  margin: 0 -10px;
+  width: auto;
+  height: 44px;
+  text-align: justify;
+}*/
+
+.top-navigation li {
+  display: inline-block;
+  list-style: none;
+}
+
+.top-navigation li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
